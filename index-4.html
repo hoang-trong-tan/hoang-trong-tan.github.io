@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Liên hệ</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo_icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/logo_icon.png" type="image/x-icon" />
+    <meta name="description" content="Your description" />
+    <meta name="keywords" content="Your keywords" />
+    <meta name="author" content="Your name" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="stylesheet" href="css/preview.css" type="text/css" />
+    <script type="text/javascript" src="js/include_script.js"></script>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="css/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+  </head>
+  <body>
+    <!--content wrapper-->
+    <div id="wrapper">
+      <section>
+        <div class="dynamicContent">
+          <!--content-->
+          <div class="inner">
+            <div class="container">
+              <div class="row">
+                <div class="span5">
+                  <h2>feedback</h2>
+                  <form id="form1">
+                    <div class="success">
+                      Contact form submitted!<br />
+                      <strong>We will be in touch soon.</strong>
+                    </div>
+                    <fieldset>
+                      <label class="name">
+                        <input type="text" value="Name" />
+                        <span class="error">*This is not a valid name.</span>
+                        <span class="empty"
+                          >*This field is required.</span
+                        > </label
+                      ><br />
+                      <label class="email">
+                        <input type="email" value="E-mail" />
+                        <span class="error"
+                          >*This is not a valid email address.</span
+                        >
+                        <span class="empty"
+                          >*This field is required.</span
+                        > </label
+                      ><br />
+                      <label class="phone">
+                        <input type="tel" value="Phone" />
+                        <span class="error"
+                          >*This is not a valid phone number.</span
+                        >
+                        <span class="empty"
+                          >*This field is required.</span
+                        > </label
+                      ><br />
+                      <label class="message">
+                        <textarea>Message</textarea>
+                        <span class="error">*The message is too short.</span>
+                        <span class="empty">*This field is required.</span>
+                      </label>
+                      <br class="clear" />
+                      <div class="btns">
+                        <p>
+                          <a href="#" class="btn-link" data-type="reset"
+                            >Clear</a
+                          ><a href="#" class="btn-link" data-type="submit"
+                            >Send</a
+                          >
+                        </p>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+                <div class="span7">
+                  <h2>contact info</h2>
+
+                  <div class="box">
+                    <p class="margin3">Địa chỉ liên hệ</p>
+                    <h4>
+                      Da Nang - VIETNAM,<br />PHƯỜNG THANH KHÊ ĐÔNG,QUẬN THANH
+                      KHÊ, DN 550000.
+                    </h4>
+                    <p>
+                      <span class="width1">Freephone:</span>+84 5890432151<br /><span
+                        class="width1"
+                        >Telephone:</span
+                      >+84 5890432151<br /><span class="width1">FAX:</span>+84
+                      5890432151 <br /><span class="width2">E-mail:</span>
+                      <a href="#">QUYNHTYTRAVEL@GMAIL.COM</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script>
+      $("#form1").forms({
+        ownerEmail: "#",
+      });
+    </script>
+  </body>
+</html>
